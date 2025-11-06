@@ -1,0 +1,9 @@
+@echo off
+echo Starting Fake Instagram Account Detector...
+echo.
+echo Step 1: Setting up database...
+python database_setup.py
+echo.
+echo Step 2: Starting web application...
+streamlit run main_app.py
+pause
